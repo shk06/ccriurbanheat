@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCRI Urban Heat Island Team Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+        background-color: #007bff;
+        display: flex;
+        align-items: center;
+        padding: 0 0px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        height: 60px; /* Adjust height if needed */
+    }
+
+    .header-content {
+        display: flex;
+        width: 100%;
+        max-width: 3000px;
+        min-width: 100px;
+        margin: 0;
+        margin-right: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo {
+        max-width: 50px;
+        height: 50px;
+        align-items: center;
+        margin-left: 10px; /* Between logo and title */
+        vertical-align: middle;
+    }
+
+    .header-title-text a {
+        font-family: 'Bebas Neue', monospace;
+        font-size: 22px;
+        color: #a8fff1;
+        line-height: 0.9;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        text-align: center;
+        margin-top: 4px;
+        margin-left: 100px;
+        text-decoration: none;
+    }
+
+    .header-title-text a:hover {
+
+        background-color: #a8fff1;
+        color: black;
+    }
+
+    .header-links {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: {0,0};
+    }
+
+    .header-links-left {
+        margin-right: auto;
+    }
+
+    .header-links-right {
+        margin-left: auto;
+        position: relative;
+    }
+
+    .header-links li {
+        margin: 0 0px; /* Adjust spacing as needed */
+    }
+
+    .header-links a {
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        display: block;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .header-links a i {
+        font-size: 20px; /* Adjust size as needed */
+    }
+
+    .header-links a:hover {
+        background-color: #a8fff1;
+        color: black;
+        transform: scale(1.02);
+        font-weight: 900;
+    }
+
+    .header-title {
+        text-align: center;
+    }
+
+    .header-title img {
+        max-width: 100px;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      position: relative;
+    }
+
+    h1 {
+      color: #007bff;
+      text-align: center;
+      margin-top: 0;
+      font-size: 2em;
+      font-weight: 700;
+    }
+
+      p {
+          font-size: 1.0em;
+          line-height: 1.3em;
+            margin: 0;
+          padding: 10px
+        }
+
+    .embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #333;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    footer {
+      background: #007bff;
+      /* font-family: 'Bebas Neue', monospace; */
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      bottom: 0;
+      width: 100%;
+      font-size: 1.5em;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      z-index: 1000;
+    }
+
+    footer:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      font-weight: 900;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+      <div class="header-content">
+          <ul class="header-links header-links-left">
+              <li><a href="home.html"><i class="fas fa-home"></i></a></li>
+              <li><a href="research.html">Research</a></li>
+          </ul>
+          <div class="header-title">
+              <div class="header-logo-container">
+
+                  <div class="header-title-text">
+                      <a href="https://science.nasa.gov/earth-science/early-career-opportunities/climate-change-research-initiative/#:~:text=Characterizing%20the%20Urban%20Land%20Surface%20Temperature%20via%20an%20Innovative%2C%20Multi%2DPlatformed%20Suite%20of%20Satellite%20and%20Ground%2DBased%20Remote%20Sensing%20Technologies%20(GISS/CUNY)" target="_blank">
+                          <span>Urban Heat</span>
+                          <span>Islands Team</span>
+                      </a>
+                  </div>
+                  <a href="https://science.nasa.gov/earth-science/early-career-opportunities/#:~:text=and%20official%20deadlines.-,Climate%20Change%20Research%20Initiative,-The%20Climate%20Change" target="_blank">
+                      <img src="ecr_logo.png" alt="Urban Heat Island" class="header-logo">
+                  </a>
+              </div>
+          </div>
+          <ul class="header-links header-links-right">
+              <li><a href="shaunak.html">cGAN Demo</a></li>
+              <li><a href="inspire.html">INSPIRE Campaigns</a></li>
+              <li><a href="index.html">Maps</a></li>
+          </ul>
+      </div>
+  </header>
+
+  <div class="container">
+    <h1>2024 INSPIRE Field Campaign</h1>
+      <p>During the CCRI UHI's  2024 Field Campaign, we collected the air temperatures and land surface temperatures in the morning and afternoon at different locations around the Bedford-Stuyvesant neighborhood in Brooklyn, NY.
+</p>
+    <p>
+      If you go to the Bedford Stuyvesant area in the map below, you will see circle symbols. Each transect is represented by a different color outline. Tap on the different circles to see the data that high schoolers gathered while walking down their transects. The surrounding shades of purple and blue are the Environmental Justice Indexes (EJI) in the Bed-Stuy area. As the EJI gets higher, the community has a more severe environmental burden.
+    </p>
+    <p>
+      The EJI is calculated based on a multitude of factors:  temperatures throughout the year,  income, greenspace, and other facilities available/unavailable in certain areas. This index finds that there is an environmental justice problem in which low-income and minority communities suffer disproportionately because of prevailing environmental conditions.    
+
+
+    </p>
+    <p>
+      When you click on the symbol, you get the data collected, and when you click on the arrow, you can also see the EJI data. 
+    </p>
+    <div class="embed-container">
+      <iframe src="//stanford.maps.arcgis.com/apps/Embed/index.html?webmap=4fdc83d7ba7a483abc0306389fa74748&extent=-73.9525,40.6812,-73.9463,40.6838&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&disable_scroll=true&theme=light" frameborder="0" allowfullscreen></iframe>
+    </div>
+      <p>
+        If you zoom out, you can search and find the EJI at any location in the United States! 
+      </p>
+       
+
+
+      <p><b><u>Field Campaign Analysis</u></b></p>
+
+      <p>From this map and other forms of statistical analysis, our team found that higher temperatures (represented by darker red) was more likely to be in higher environmental indices whereas lower  temperatures (represented by lighter yellow) was more likely to be in a lower environmental indices. Here are a few graphs our team created using data collected:
+      </p>
+      
+       
+
+    <img src="2024transect.png" alt="INSPIRE Campaign"  width="400" height="350"  >
+<div>
+      <ul><li>Black-dashed line: one-to-one line
+
+       
+</li><li >Red line: best-fit line
+
+  </li><li > RMSE: Root mean square error
+
+     </li><li>Corr.: Correlation coefficient</li></ul>
+</div>
+       <p>In this Figure, the Land Surface Temperature (LST) is compared with air temperature separated by grass/pavement and shade/sun from the 2024 INSPIRE field campaign. The left column is from retrievals in the shade and the right column is retrievals from the sun. The top row uses LST from the pavement and the bottom row uses LST from the grass.
+
+      </p>
+       <p><b>This map demonstrates how:</b> 
+
+         </p>
+      <ul>
+          <li> Points are now more clustered.  </li>
+          <li>Sun is still warmer than shade.   </li>
+          <li>Pavement is still slightly warmer than grass.</li>
+      </ul>
+
+     
+      </div>
+
+
+    
+  <footer id="footer">
+    NASA Earth Science Division
+  </footer>
+
+  <script>
+    window.onload = function () {
+        document.getElementById('footer').addEventListener('click', function () {
+            window.location.href = 'https://science.nasa.gov/earth-science/';
+        });
+    }
+  </script>
+
+</body>
+</html>
